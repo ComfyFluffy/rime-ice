@@ -201,21 +201,21 @@ speller:
     # - derive/^n/l/  # 可以单向或双向启用模糊音
     # - derive/^f/h/
     # - derive/^h/f/
-    # - derive/^l/r/
-    # - derive/^r/l/
+    - derive/^l/r/
+    - derive/^r/l/
     # - derive/^g/k/
     # - derive/^k/g/
     # 韵母
-    # - derive/ang$/an/
-    # - derive/an$/ang/
-    # - derive/eng$/en/
-    # - derive/en$/eng/
-    # - derive/in$/ing/
-    # - derive/ing$/in/
-    # - derive/ian$/iang/
-    # - derive/iang$/ian/
-    # - derive/uan$/uang/
-    # - derive/uang$/uan/
+    - derive/ang$/an/
+    - derive/an$/ang/
+    - derive/eng$/en/
+    - derive/en$/eng/
+    - derive/in$/ing/
+    - derive/ing$/in/
+    - derive/ian$/iang/
+    - derive/iang$/ian/
+    - derive/uan$/uang/
+    - derive/uang$/uan/
     # - derive/ai$/an/
     # - derive/an$/ai/
     # - derive/ong$/un/
