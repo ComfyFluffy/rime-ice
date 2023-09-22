@@ -68,19 +68,18 @@ preset_color_schemes:
     translucency: true
     corner_radius: 8.0
     hilited_corner_radius: 4.0
-    border_width: 2.0
     line_spacing: 1.0
     shadow_size: 8.0
     color_space: display_p3
     back_color: 0x80323232
-    candidate_text_color: 0xD8FFFFFF
-    comment_text_color: 0x3FFFFFFF
+    candidate_text_color: 0xCDFFFFFF
+    comment_text_color: 0x67FFFFFF
     label_color: 0xD5BBBBBB
-    hilited_candidate_back_color: 0x800F0F0F
-    hilited_candidate_text_color: 0xD8FFFFFF
-    hilited_comment_text_color: 0xFFFFFF
+    hilited_candidate_back_color: 0x4E000000
+    hilited_candidate_text_color: 0xCCFFFFFF
+    hilited_comment_text_color: 0x67FFFFFF
     hilited_candidate_label_color: 0xD5AEAEAE
-    text_color: 0x3FFFFFFF
+    text_color: 0xFFFFFF
     hilited_text_color: 0xD8FFFFFF
 
   # 对 purity_of_form 略微调整颜色，让色彩更柔和点，补全其他选项和注释
