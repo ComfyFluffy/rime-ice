@@ -35,8 +35,8 @@ app_options:
 
 style:
   # 选择皮肤，亮色与暗色主题
-  color_scheme: purity_of_form_custom
-  color_scheme_dark: purity_of_form_custom
+  color_scheme: neutral_dark_tansluscent
+  color_scheme_dark: neutral_dark_tansluscent
 
   # 以下是预设选项。如果皮肤没写，则使用这些属性；如果皮肤写了，使用皮肤的。
 
@@ -85,6 +85,33 @@ style:
 
 # 皮肤列表
 preset_color_schemes:
+  neutral_dark_tansluscent:
+    name: 'neutral_transluscent'
+    font_face: 'PingFangSC-Medium'
+    font_point: 14.0
+    label_font_face: 'PingFangSC-Regular'
+    label_font_point: 14.0
+    comment_font_face: 'PingFangSC-Regular'
+    comment_font_point: 14.0
+    candidate_list_layout: linear
+    text_orientation: horizontal
+    inline_preedit: true
+    translucency: true
+    corner_radius: 8.0
+    hilited_corner_radius: 4.0
+    line_spacing: 1.0
+    shadow_size: 8.0
+    color_space: display_p3
+    back_color: 0x80323232
+    candidate_text_color: 0xCDFFFFFF
+    comment_text_color: 0x67FFFFFF
+    label_color: 0xD5BBBBBB
+    hilited_candidate_back_color: 0x4E000000
+    hilited_candidate_text_color: 0xCCFFFFFF
+    hilited_comment_text_color: 0x67FFFFFF
+    hilited_candidate_label_color: 0xD5AEAEAE
+    text_color: 0xFFFFFF
+    hilited_text_color: 0xD8FFFFFF
   # 对 purity_of_form 略微调整颜色，让色彩更柔和点，补全其他选项和注释
   purity_of_form_custom:
     name: "純粹的形式／Purity of Form Custom"
